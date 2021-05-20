@@ -5,5 +5,4 @@ _prompt _ n = (utcToLocalTime <$> getCurrentTimeZone <*> getCurrentTime) >>= pri
 :set -pgmL markdown-unlit
 :set +s
 :set +t
-:set -XLambdaCase -XBangPatterns -XScopedTypeVariables
-:set editor catn
+:set -XLambdaCase -XBangPatterns -XScopedTypeVariables -XMultiWayIf
